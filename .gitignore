@@ -1,0 +1,27 @@
+# Python
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+.pytest_cache
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables (sensitive)
+.env
+.env.local
+*.json
+!package.json
+
+# Personal credentials (DO NOT COMMIT)
+*credentials*.json
+*serviceaccount*.json
+service-account-*.json
